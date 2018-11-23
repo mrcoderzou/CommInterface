@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.test.comminterface.custom.NormalButton
+        android:id="@+id/nb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通接口调用"/>
+
+    <com.test.comminterface.custom.NoParamNoResultButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="无参无返回结果接口调用"/>
+
+    <com.test.comminterface.custom.WithMultiParamWithResultButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="有多个参数有返回结果接口调用"/>
+    <com.test.comminterface.custom.NoParamWithResultButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="无参有返回结果接口调用"/>
+
+    <com.test.comminterface.custom.WithParamNoResultButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="有参无返回结果接口调用"/>
+
+    <com.test.comminterface.custom.WithParamWithResultButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="有参有返回结果接口调用"/>
+
+    <com.test.comminterface.custom.WithMultiParamNoResultButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="有多个参数无返回结果接口调用"/>
+
+</LinearLayout>
